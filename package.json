@@ -1,0 +1,26 @@
+{
+  "name": "aws-server-switch",
+  "version": "1.0.0",
+  "description": "AWS Lambda function that stop/start aws servers",
+  "main": "index.js",
+  "scripts": {
+    "test": "xo && ava"
+  },
+  "author": "Amr Reda",
+  "license": "ISC",
+  "dependencies": {
+    "ava": "^0.21.0",
+    "aws-lambda-pify": "^3.0.0",
+    "aws-sdk": "^2.92.0",
+    "del": "^3.0.0",
+    "gulp": "^3.9.1",
+    "gulp-install": "^1.1.0",
+    "gulp-remove-empty-lines": "^0.1.0",
+    "gulp-strip-comments": "^2.5.1",
+    "gulp-zip": "^4.0.0",
+    "pify": "^3.0.0",
+    "pinkie-promise": "^2.0.1",
+    "sinon": "^2.4.1",
+    "xo": "^0.18.2"
+  }
+}
